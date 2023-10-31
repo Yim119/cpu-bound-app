@@ -20,7 +20,7 @@ public class Controller {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "hello!!, webhook docker test, auto push docker hub, instance deploy";
+        return "hello!!, webhook docker test, auto push docker hub, instance deploy test1";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
